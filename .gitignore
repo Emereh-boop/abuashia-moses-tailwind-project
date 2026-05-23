@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.Ds_store
+*.log
+*.env
+*.env.local
+*.local
+*.cache
+*.tmp

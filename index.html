@@ -4,22 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus - Digital Future</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        darkBlue: '#0f172a',    /* Main deep background */
-                        blueShade: '#152032',   /* Card / Section background */
-                        lightBlue: '#3b82f6',   /* Primary buttons / Accents */
-                        purpleCustom: '#a855f7',/* Accent highlight */
-                        greenCustom: '#22c55e', /* Success / Metric highlight */
-                    }
-                }
-            }
-        }
-    </script>
+    <link rel="stylesheet" href="./dist/output.css">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-darkBlue text-gray-100 font-sans antialiased selection:bg-lightBlue/30">
@@ -98,7 +83,7 @@
                 <div class="lg:col-span-6 flex justify-center">
                     <div class="relative w-full max-w-lg lg:max-w-xl">
                         <div class="bg-blueShade/40 border border-gray-800/80 rounded-2xl p-3 shadow-2xl">
-                            <img src="/assets/hero-image.png" alt="Analytics Dashboard UI Graphic" class="rounded-xl w-full object-cover">
+                            <img src="assets/hero-image.png" alt="Analytics Dashboard UI Graphic" class="rounded-xl w-full object-cover">
                         </div>
                     </div>
                 </div>
@@ -154,7 +139,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div class="lg:col-span-6 flex justify-center">
                     <div class="w-full max-w-lg lg:max-w-xl">
-                        <img src="/assets/about-image.png" alt="Collaborative corporate environment workspace team discussion" class="rounded-xl shadow-xl border border-gray-800/80 object-cover w-full">
+                        <img src="assets/about-image.png" alt="Collaborative corporate environment workspace team discussion" class="rounded-xl shadow-xl border border-gray-800/80 object-cover w-full">
                     </div>
                 </div>
 

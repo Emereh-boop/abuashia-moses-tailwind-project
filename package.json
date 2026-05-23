@@ -1,0 +1,27 @@
+{
+  "name": "abuashia-moses-tailwind-project",
+  "version": "1.0.0",
+  "description": "A pixel-perfect, fully responsive web page built using **HTML** and **Tailwind CSS** based on the provided UI design template.",
+  "main": "index.js",
+  "scripts": {
+    "init-tailwind": "tailwindcss init",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Emereh-boop/abuashia-moses-tailwind-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Emereh-boop/abuashia-moses-tailwind-project/issues"
+  },
+  "homepage": "https://github.com/Emereh-boop/abuashia-moses-tailwind-project#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}
